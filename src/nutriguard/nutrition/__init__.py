@@ -1,0 +1,1 @@
+"""USDA-backed macro lookup."""

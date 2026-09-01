@@ -1,0 +1,33 @@
+{
+  "chicken_rice_bowl.jpg": [
+    {
+      "label": "grilled chicken breast",
+      "identification_confidence": 0.93,
+      "bbox": [0.05, 0.1, 0.4, 0.5]
+    },
+    {
+      "label": "white rice",
+      "identification_confidence": 0.9,
+      "bbox": [0.5, 0.1, 0.45, 0.5]
+    }
+  ],
+  "pad_thai_with_peanut_sauce.jpg": [
+    {
+      "label": "rice noodles",
+      "identification_confidence": 0.86,
+      "bbox": [0.05, 0.15, 0.5, 0.6]
+    },
+    {
+      "label": "peanut sauce",
+      "identification_confidence": 0.4,
+      "bbox": [0.55, 0.2, 0.3, 0.3]
+    }
+  ],
+  "garden_salad.jpg": [
+    {
+      "label": "mixed greens salad",
+      "identification_confidence": 0.81,
+      "bbox": null
+    }
+  ]
+}
