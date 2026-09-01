@@ -5,6 +5,7 @@ description = "NutriGuard AI - Vision, Nutrition & Data slice (Person 2, Gate A)
 requires-python = ">=3.12"
 dependencies = [
     "pydantic>=2.9,<3",
+    "strands-agents>=1.54,<2",
 ]
 
 [project.optional-dependencies]
