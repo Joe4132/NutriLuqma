@@ -1,0 +1,64 @@
+{
+  "valid": [
+    {
+      "user_id": "demo-user-1",
+      "display_name": "Sam (peanut anaphylaxis)",
+      "allergies": [
+        {
+          "allergen": "peanut",
+          "severity": "anaphylaxis",
+          "notes": "Carries epinephrine auto-injector"
+        }
+      ],
+      "daily_sugar_limit_g": 30.0,
+      "notes": "Monitoring sugar for pre-diabetes management"
+    },
+    {
+      "user_id": "demo-user-2",
+      "display_name": "Riley (milk intolerance)",
+      "allergies": [
+        {
+          "allergen": "milk",
+          "severity": "intolerance",
+          "notes": "Mild GI discomfort, not anaphylaxis"
+        }
+      ],
+      "daily_sugar_limit_g": null,
+      "notes": null
+    },
+    {
+      "user_id": "demo-user-3",
+      "display_name": "Jordan (no allergies)",
+      "allergies": [],
+      "daily_sugar_limit_g": 40.0,
+      "notes": null
+    }
+  ],
+  "invalid": [
+    {
+      "case": "empty_user_id",
+      "payload": {
+        "user_id": "",
+        "display_name": "Invalid",
+        "allergies": [],
+        "daily_sugar_limit_g": null,
+        "notes": null
+      },
+      "expected_error": "user_id must not be empty"
+    },
+    {
+      "case": "duplicate_allergen",
+      "payload": {
+        "user_id": "demo-user-x",
+        "display_name": "Invalid",
+        "allergies": [
+          { "allergen": "peanut", "severity": "allergy", "notes": null },
+          { "allergen": "peanut", "severity": "anaphylaxis", "notes": "dup" }
+        ],
+        "daily_sugar_limit_g": null,
+        "notes": null
+      },
+      "expected_error": "duplicate allergen entries in profile"
+    }
+  ]
+}
