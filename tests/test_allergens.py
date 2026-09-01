@@ -188,7 +188,7 @@ def test_determinism_repeated_calls_are_byte_identical() -> None:
     assert first == second
     # "Byte-identical" for our purposes: identical JSON serialization of the
     # findings, which requires identical field values and identical order.
-    encode = lambda findings: json.dumps(  # noqa: E731
+    encode = lambda findings: json.dumps(
         [
             {
                 "allergen": f.allergen.value,
@@ -235,9 +235,8 @@ def test_module_has_no_network_dependency() -> None:
         if isinstance(node, ast.Import):
             for alias in node.names:
                 imported_roots.add(alias.name.split(".")[0])
-        elif isinstance(node, ast.ImportFrom):
-            if node.module:
-                imported_roots.add(node.module.split(".")[0])
+        elif isinstance(node, ast.ImportFrom) and node.module:
+            imported_roots.add(node.module.split(".")[0])
 
     offenders = imported_roots & forbidden_modules
     assert not offenders, f"allergens.py must not import network/LLM modules, found: {offenders}"

@@ -162,9 +162,8 @@ class TestFailureBehavior:
         monkeypatch.setenv("AWS_DEFAULT_REGION", "us-west-2")
         monkeypatch.setenv("NUTRIGUARD_MEALS_TABLE", "table-that-does-not-exist")
 
-        with mock_aws():
-            with pytest.raises(RepositoryWriteError):
-                log_meal(_sample_meal())
+        with mock_aws(), pytest.raises(RepositoryWriteError):
+            log_meal(_sample_meal())
 
 
 def test_no_hardcoded_resource_identifiers() -> None:

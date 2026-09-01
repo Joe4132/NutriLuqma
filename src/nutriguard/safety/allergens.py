@@ -48,7 +48,7 @@ _ALLERGEN_MAP_PATH = Path(__file__).resolve().parent.parent / "data" / "allergen
 class AllergenMapEntry:
     """Typed view of one allergen's entry in the reference map."""
 
-    __slots__ = ("direct", "aliases", "categories")
+    __slots__ = ("aliases", "categories", "direct")
 
     def __init__(self, direct: list[str], aliases: list[str], categories: list[str]) -> None:
         self.direct = direct

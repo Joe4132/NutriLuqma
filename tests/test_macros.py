@@ -12,7 +12,6 @@ import pytest
 from nutriguard.domain.models import FoodItem, MacroBreakdown
 from nutriguard.nutrition.macros import aggregate_macros, get_macros
 
-
 # --------------------------------------------------------------------------
 # get_macros - known foods
 # --------------------------------------------------------------------------
