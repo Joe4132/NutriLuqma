@@ -1,0 +1,112 @@
+{
+  "milk": {
+    "direct": [
+      "milk", "cheese", "butter", "cream", "yogurt", "yoghurt", "buttermilk",
+      "ice cream", "custard", "milk chocolate", "cottage cheese", "cream cheese",
+      "sour cream", "half and half", "condensed milk", "evaporated milk", "ghee"
+    ],
+    "aliases": [
+      "casein", "caseinate", "sodium caseinate", "whey", "whey protein",
+      "lactose", "lactalbumin", "lactoglobulin", "lactoferrin", "curds",
+      "milk solids", "milk powder", "nonfat milk solids", "recaldent",
+      "rennet casein", "diacetyl"
+    ],
+    "categories": ["dairy"]
+  },
+  "egg": {
+    "direct": [
+      "egg", "eggs", "egg white", "egg whites", "egg yolk", "egg yolks",
+      "mayonnaise", "meringue", "quiche", "frittata", "omelet", "omelette"
+    ],
+    "aliases": [
+      "albumin", "albumen", "ovalbumin", "ovomucin", "ovomucoid",
+      "lysozyme", "globulin", "livetin", "vitellin", "ovotransferrin",
+      "egg lecithin"
+    ],
+    "categories": []
+  },
+  "fish": {
+    "direct": [
+      "fish", "salmon", "tuna", "cod", "tilapia", "anchovy", "anchovies",
+      "trout", "halibut", "sardine", "sardines", "bass", "catfish",
+      "mahi mahi", "swordfish", "herring", "mackerel", "snapper", "haddock"
+    ],
+    "aliases": [
+      "surimi", "fish sauce", "worcestershire sauce", "caesar dressing",
+      "fish stock", "fish gelatin", "isinglass", "fish paste", "bonito flakes",
+      "dashi"
+    ],
+    "categories": ["seafood"]
+  },
+  "crustacean_shellfish": {
+    "direct": [
+      "shrimp", "crab", "lobster", "prawn", "prawns", "crawfish", "crayfish",
+      "langoustine", "scampi", "krill"
+    ],
+    "aliases": [
+      "shellfish stock", "shrimp paste", "crab extract", "seafood flavoring",
+      "shrimp powder", "crab meat", "shellfish flavoring"
+    ],
+    "categories": ["seafood", "shellfish"]
+  },
+  "tree_nut": {
+    "direct": [
+      "almond", "almonds", "cashew", "cashews", "walnut", "walnuts",
+      "pecan", "pecans", "pistachio", "pistachios", "hazelnut", "hazelnuts",
+      "macadamia", "macadamia nut", "macadamia nuts", "brazil nut",
+      "brazil nuts", "chestnut", "chestnuts", "pine nut", "pine nuts"
+    ],
+    "aliases": [
+      "marzipan", "nougat", "praline", "nut butter", "nut meal", "gianduja",
+      "frangipane", "nut paste", "nutella", "filbert", "filberts"
+    ],
+    "categories": ["nuts", "tree nuts"]
+  },
+  "peanut": {
+    "direct": [
+      "peanut", "peanuts", "peanut butter", "peanut sauce", "peanut oil",
+      "peanut flour", "satay", "satay sauce"
+    ],
+    "aliases": [
+      "groundnut", "groundnuts", "arachis oil", "arachis", "monkey nut",
+      "monkey nuts", "goober", "goober peas", "mandelonas", "beer nuts"
+    ],
+    "categories": []
+  },
+  "wheat": {
+    "direct": [
+      "wheat", "bread", "pasta", "noodles", "flour", "bun", "buns",
+      "tortilla", "cracker", "crackers", "cereal", "pizza", "pizza dough",
+      "pastry", "cake", "cookie", "cookies", "pancake", "pancakes"
+    ],
+    "aliases": [
+      "semolina", "durum", "gluten", "spelt", "farina", "bulgur", "couscous",
+      "seitan", "graham flour", "einkorn", "kamut", "triticale",
+      "wheat starch", "vital wheat gluten", "wheat germ", "wheat bran",
+      "matzo", "panko"
+    ],
+    "categories": []
+  },
+  "soy": {
+    "direct": [
+      "soy", "soybean", "soybeans", "soy sauce", "tofu", "edamame", "tempeh",
+      "soy milk"
+    ],
+    "aliases": [
+      "soya", "soy lecithin", "soy protein", "textured vegetable protein",
+      "tvp", "miso", "natto", "hydrolyzed soy protein", "soy flour",
+      "soy protein isolate", "soybean oil"
+    ],
+    "categories": []
+  },
+  "sesame": {
+    "direct": [
+      "sesame", "sesame seed", "sesame seeds", "sesame oil", "sesame paste"
+    ],
+    "aliases": [
+      "tahini", "gomasio", "benne", "benne seed", "benne seeds", "sesamol",
+      "sesamin", "halva", "za'atar", "zaatar"
+    ],
+    "categories": []
+  }
+}
