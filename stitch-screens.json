@@ -1,0 +1,55 @@
+{
+  "project": {
+    "id": "15741586985309491556",
+    "name": "NutriGuard AI Dashboard"
+  },
+  "screens": [
+    {
+      "name": "NutriGuard Dashboard with Allergy Sidebar",
+      "screenId": "4805579816b9405e9c9b365f7b1544e5",
+      "route": "/dashboard/allergies"
+    },
+    {
+      "name": "User Profile & Safety Settings (Legacy)",
+      "screenId": "4a8b960ad7764378ae039f742316bb52",
+      "route": "/profile/safety-legacy"
+    },
+    {
+      "name": "User Profile & Safety Settings (Initial)",
+      "screenId": "644da0f781b84a50aa938ac91ecb6fc1",
+      "route": "/profile/safety"
+    },
+    {
+      "name": "Meal Analysis & Logging",
+      "screenId": "bc039110b8e2478c83144b0380a49b74",
+      "route": "/meal"
+    },
+    {
+      "name": "NutriGuard Dashboard",
+      "screenId": "33b4bb9918aa47d3ae20cdcbafae2bc8",
+      "route": "/"
+    },
+    {
+      "name": "User Profile with Expanded Allergen List",
+      "screenId": "9719b88f26694ad1835c1d9327c27709",
+      "route": "/profile/allergens"
+    },
+    {
+      "name": "Design System",
+      "screenId": "asset-stub-assets_4483f60c0ec14454aa61458eada44acd",
+      "route": "/design-system"
+    }
+  ],
+  "build_site_payload": {
+    "projectId": "15741586985309491556",
+    "routes": [
+      { "screenId": "33b4bb9918aa47d3ae20cdcbafae2bc8",         "route": "/" },
+      { "screenId": "4805579816b9405e9c9b365f7b1544e5",         "route": "/dashboard/allergies" },
+      { "screenId": "bc039110b8e2478c83144b0380a49b74",         "route": "/meal" },
+      { "screenId": "9719b88f26694ad1835c1d9327c27709",         "route": "/profile/allergens" },
+      { "screenId": "4a8b960ad7764378ae039f742316bb52",         "route": "/profile/safety-legacy" },
+      { "screenId": "644da0f781b84a50aa938ac91ecb6fc1",         "route": "/profile/safety" },
+      { "screenId": "asset-stub-assets_4483f60c0ec14454aa61458eada44acd", "route": "/design-system" }
+    ]
+  }
+}

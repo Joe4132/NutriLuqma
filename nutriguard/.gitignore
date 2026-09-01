@@ -1,0 +1,54 @@
+# --- Secrets and credentials — NEVER commit these ---
+.env
+.env.local
+agentcore/.env.local
+*.pem
+*.key
+credentials
+.aws/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- AgentCore build artifacts ---
+agentcore/.build/
+agentcore/dist/
+*.zip
+
+# --- Medical data and meal photos — NEVER commit ---
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.heic
+meal_photos/
+user_data/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS ---
+.DS_Store
+Thumbs.db

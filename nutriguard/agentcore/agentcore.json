@@ -1,0 +1,26 @@
+{
+  "name": "nutriguard",
+  "description": "NutriGuard AI nutrition assistant — Gate A build",
+  "framework": "Strands",
+  "entrypoint": "app/main.py",
+  "handler": "handler",
+  "model": {
+    "provider": "Bedrock",
+    "modelId": "us.anthropic.claude-sonnet-4-5",
+    "region": "us-west-2"
+  },
+  "memory": {
+    "type": "shortTerm"
+  },
+  "build": {
+    "type": "CodeZip"
+  },
+  "environment": {
+    "PYTHONPATH": "."
+  },
+  "tags": {
+    "project": "nutriguard",
+    "gate": "a",
+    "owner": "person-1"
+  }
+}
