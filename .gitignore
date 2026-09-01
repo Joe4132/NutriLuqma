@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+*.env
+
+# AWS credentials and secrets — never commit
+.aws/
+*.pem
+*.key
+*.token
+secrets.*
+
+# Node
+node_modules/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Temp / editor
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Uploaded images / user data
+uploads/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+
+# Local model weights (large files)
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
