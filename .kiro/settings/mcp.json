@@ -1,4 +1,4 @@
-﻿{
+{
   "mcpServers": {
     "aws-documentation": {
       "command": "uvx",
@@ -20,6 +20,12 @@
       "env": { "FASTMCP_LOG_LEVEL": "ERROR" },
       "disabled": false,
       "autoApprove": ["search_docs", "fetch_doc"]
+    },
+    "stitch": {
+      "command": "npx",
+      "args": ["@_davideast/stitch-mcp", "proxy"],
+      "disabled": false,
+      "autoApprove": ["build_site", "get_screen_code", "get_screen_image"]
     }
   }
 }
